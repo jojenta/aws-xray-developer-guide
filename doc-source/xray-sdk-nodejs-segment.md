@@ -40,7 +40,7 @@ Use annotations to record information on segments or subsegments that you want i
 
 The SDK records annotations as key\-value pairs in an `annotations` object in the segment document\. Calling `addAnnotation` twice with the same key overwrites previously recorded values on the same segment or subsegment\.
 
-To find traces that have annotations with specific values, use the `annotations.key` keyword in a [filter expression](xray-console-filters.md)\.
+To find traces that have annotations with specific values, use the `annotation.key` keyword in a [filter expression](xray-console-filters.md)\.
 
 **Example app\.js \- Annotations**  
 
